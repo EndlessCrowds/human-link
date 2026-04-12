@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "human-link"
+version = "0.1.0"
+description = "Core library for the Agent Proof Protocol. Generate 1-click WebRTC sensory bridges."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.25.0",
+    "websockets>=11.0"
+]
