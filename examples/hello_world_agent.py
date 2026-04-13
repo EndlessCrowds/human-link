@@ -5,7 +5,7 @@ from aiortc import RTCPeerConnection, RTCSessionDescription
 
 # The Production Infrastructure
 SIGNALING_URL = "wss://human-link-signal-production.up.railway.app"
-RECEIVER_URL = "https://agent-crowds.vercel.app"
+RECEIVER_URL = "https://agentcrowds.com"
 SESSION_ID = "discord-launch-001"
 
 async def run_agent():
