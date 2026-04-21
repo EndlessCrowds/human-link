@@ -7,7 +7,7 @@ from aiortc import RTCPeerConnection, RTCSessionDescription, RTCConfiguration, R
 # The Production Infrastructure
 SIGNALING_URL = "wss://human-link-signal-production.up.railway.app"
 RECEIVER_URL = "https://agent-crowds.vercel.app"
-SESSION_ID = "vision-test-001"
+SESSION_ID = "vision-relay-002"
 
 # Full ICE config with TURN relays for 5G/carrier-NAT compatibility
 ICE_CONFIG = RTCConfiguration(iceServers=[

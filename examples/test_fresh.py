@@ -5,7 +5,7 @@ from aiortc import RTCPeerConnection, RTCSessionDescription, RTCConfiguration, R
 
 SIGNALING_URL = "wss://human-link-signal-production.up.railway.app"
 RECEIVER_URL = "https://agent-crowds.vercel.app"
-SESSION_ID = "smartphone-test-002"
+SESSION_ID = "coexist-006"
 
 ICE_CONFIG = RTCConfiguration(iceServers=[
     RTCIceServer(urls="stun:stun.l.google.com:19302"),
